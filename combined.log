@@ -1,0 +1,48 @@
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-06T10:55:38.513Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-06T11:07:23.460Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-06T11:20:19.460Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-06T11:23:10.649Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-06T11:33:36.606Z"}
+{"level":"info","message":"POST /api/categories","timestamp":"2025-06-06T11:33:58.512Z"}
+{"level":"info","message":"POST /api/categories","timestamp":"2025-06-06T11:33:58.590Z"}
+{"level":"info","message":"GET /api/categories","timestamp":"2025-06-06T11:33:58.636Z"}
+{"level":"info","message":"GET /api/categories/1","timestamp":"2025-06-06T11:33:58.676Z"}
+{"level":"info","message":"PUT /api/categories/1","timestamp":"2025-06-06T11:33:58.714Z"}
+{"level":"info","message":"DELETE /api/categories/1","timestamp":"2025-06-06T11:33:58.752Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-06T11:37:29.557Z"}
+{"level":"info","message":"POST /api/categories","timestamp":"2025-06-06T11:37:46.298Z"}
+{"level":"info","message":"POST /api/categories","timestamp":"2025-06-06T11:37:46.412Z"}
+{"level":"info","message":"GET /api/categories","timestamp":"2025-06-06T11:37:46.485Z"}
+{"level":"info","message":"GET /api/categories/5","timestamp":"2025-06-06T11:37:46.526Z"}
+{"level":"info","message":"PUT /api/categories/5","timestamp":"2025-06-06T11:37:46.582Z"}
+{"level":"info","message":"DELETE /api/categories/5","timestamp":"2025-06-06T11:37:46.634Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-06T11:39:03.736Z"}
+{"level":"info","message":"POST /api/categories","timestamp":"2025-06-06T11:39:07.842Z"}
+{"level":"info","message":"POST /api/categories","timestamp":"2025-06-06T11:39:07.929Z"}
+{"level":"info","message":"GET /api/categories","timestamp":"2025-06-06T11:39:07.989Z"}
+{"level":"info","message":"GET /api/categories/6","timestamp":"2025-06-06T11:39:08.046Z"}
+{"level":"info","message":"PUT /api/categories/6","timestamp":"2025-06-06T11:39:08.088Z"}
+{"level":"error","message":"error: column \"updated_at\" of relation \"categories\" does not exist\n    at /usr/src/app/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.update (/usr/src/app/src/services/categoryService.js:26:20)\n    at async update (/usr/src/app/src/controllers/categoryController.js:37:24)","timestamp":"2025-06-06T11:39:08.101Z"}
+{"level":"info","message":"DELETE /api/categories/6","timestamp":"2025-06-06T11:39:08.137Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-06T11:40:08.182Z"}
+{"level":"info","message":"POST /api/categories","timestamp":"2025-06-06T11:40:34.531Z"}
+{"level":"info","message":"POST /api/categories","timestamp":"2025-06-06T11:40:34.621Z"}
+{"level":"info","message":"GET /api/categories","timestamp":"2025-06-06T11:40:34.659Z"}
+{"level":"info","message":"GET /api/categories/7","timestamp":"2025-06-06T11:40:34.700Z"}
+{"level":"info","message":"PUT /api/categories/7","timestamp":"2025-06-06T11:40:34.736Z"}
+{"level":"error","message":"error: column \"updated_at\" of relation \"categories\" does not exist\n    at /usr/src/app/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.update (/usr/src/app/src/services/categoryService.js:26:20)\n    at async update (/usr/src/app/src/controllers/categoryController.js:37:24)","timestamp":"2025-06-06T11:40:34.749Z"}
+{"level":"info","message":"DELETE /api/categories/7","timestamp":"2025-06-06T11:40:34.783Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-06T11:42:01.222Z"}
+{"level":"info","message":"POST /api/categories","timestamp":"2025-06-06T11:42:07.833Z"}
+{"level":"info","message":"POST /api/categories","timestamp":"2025-06-06T11:42:07.918Z"}
+{"level":"info","message":"GET /api/categories","timestamp":"2025-06-06T11:42:07.956Z"}
+{"level":"info","message":"GET /api/categories/1","timestamp":"2025-06-06T11:42:07.992Z"}
+{"level":"info","message":"PUT /api/categories/1","timestamp":"2025-06-06T11:42:08.035Z"}
+{"level":"info","message":"DELETE /api/categories/1","timestamp":"2025-06-06T11:42:08.080Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-06T11:43:28.794Z"}
+{"level":"info","message":"POST /api/categories","timestamp":"2025-06-06T11:43:49.274Z"}
+{"level":"info","message":"POST /api/categories","timestamp":"2025-06-06T11:43:49.367Z"}
+{"level":"info","message":"GET /api/categories","timestamp":"2025-06-06T11:43:49.404Z"}
+{"level":"info","message":"GET /api/categories/1","timestamp":"2025-06-06T11:43:49.439Z"}
+{"level":"info","message":"PUT /api/categories/1","timestamp":"2025-06-06T11:43:49.476Z"}
+{"level":"info","message":"DELETE /api/categories/1","timestamp":"2025-06-06T11:43:49.545Z"}
