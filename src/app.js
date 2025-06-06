@@ -1,19 +1,24 @@
 const express = require('express');
+const cors = require('cors');
 const path = require('path');
 const categoryRoutes = require('./routes/categoryRoutes');
 const expenseRoutes = require('./routes/expenseRoutes');
 const budgetRoutes = require('./routes/budgetRoutes');
 const reportRoutes = require('./routes/reportRoutes');
+const runMigrations = require('./config/runMigrations');
 
 // Initialize express app
 const app = express();
+const port = process.env.PORT || 3000;
 
 // Middleware
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Serve static files
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'views')));
 
 // Serve the single page application
 app.get('/', (req, res) => {
@@ -40,8 +45,20 @@ app.use((err, req, res, next) => {
     });
 });
 
-// Start server
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-}); 
+// Run migrations before starting the server
+async function startServer() {
+    try {
+        // Run migrations
+        await runMigrations();
+        
+        // Start the server
+        app.listen(port, () => {
+            console.log(`Server is running on port ${port}`);
+        });
+    } catch (error) {
+        console.error('Error starting server:', error);
+        process.exit(1);
+    }
+}
+
+startServer(); 
